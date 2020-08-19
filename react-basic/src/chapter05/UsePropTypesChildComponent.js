@@ -5,10 +5,11 @@ class UserPropTypesChildComponent extends React.Component {
     constructor(props) {
         super(props);
     }
+
     render() {
         return (
             <div>
-                <h1>이 값은 부모로 부터 전달 된 {this.props.name} {this.props.sendValue}</h1>
+                <p>이 값은 부모로 부터 전달 된 {this.props.name} {this.props.sendValue}</p>
             </div>
         )
     }
