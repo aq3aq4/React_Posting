@@ -4,6 +4,7 @@ import './App.css';
 // import ComponentLifeCycle from '../src/chapter06/ComponentLifeCycle';
 // import Layer from '../src/chapter06/Layer';
 import LayerUsedCycle from '../src/chapter06/LayerUsedCycle';
+import EventComponent from './chapter07/EventComponent';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         <div id="umountTarget">
           <LayerUsedCycle/>
         </div>
+      </div>
+      <div>
+        <h3>Chapter07</h3>
+        <EventComponent/>
       </div>
     </div>
   );
